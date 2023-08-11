@@ -15,7 +15,7 @@
 /* width: 105%; */
 }
 input[type="file"] {
-    /* height: auto; */
+    /* height: 48px; */
     line-height: 2.15;
 }
 .btn:hover #im {
