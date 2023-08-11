@@ -1,9 +1,8 @@
-.header-text h2::before {
+.header-text h2::after {
     content: "🤩"; /* Initial emoji */
-    transition: content 0.3s ease-in-out;
 }
 
-.header-text h2:hover::before {
+.header-text h2:hover::after {
     content: "😎"; /* New emoji on hover */
 }
 
@@ -18,4 +17,12 @@
 input[type="file"] {
     /* height: auto; */
     line-height: 2.15;
+}
+.btn:hover #im {
+    animation: zoomInOut 1s infinite; /* Play animation on hover */
+}
+
+@keyframes zoomInOut {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
 }
