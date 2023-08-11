@@ -1,4 +1,21 @@
+.header-text h2::before {
+    content: "🤩"; /* Initial emoji */
+    transition: content 0.3s ease-in-out;
+}
+
+.header-text h2:hover::before {
+    content: "😎"; /* New emoji on hover */
+}
+
 .card{
     background: hsla(0, 0%, 100%, 0.55);
     backdrop-filter: blur(30px);
+}
+.x{
+    height: 48px;
+/* width: 105%; */
+}
+input[type="file"] {
+    /* height: auto; */
+    line-height: 2.15;
 }
