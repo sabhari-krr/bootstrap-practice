@@ -42,18 +42,33 @@
             </div>
         </div>
     </div> -->
-    <!----------------------- Main Container -------------------------->
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <!----------------------- Login Container -------------------------->
         <div class="row border rounded-5 p-3 bg-white shadow box-area">
-            <!--------------------------- Left Box ----------------------------->
             <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://img.freepik.com/free-vector/privacy-policy-concept-illustration_114360-7853.jpg"
+                        class="img-fluid" alt="..." style="width: auto;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg"
+                        class="img-fluid" alt="..." style="width: auto;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.freepik.com/free-vector/sign-page-abstract-concept-illustration_335657-2242.jpg"
+                        class="img-fluid" alt="..." style="width: auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            <!-- <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
                 <div class="featured-image mb-3">
                     <img src="https://static.vecteezy.com/system/resources/previews/005/879/539/non_2x/cloud-computing-modern-flat-concept-for-web-banner-design-man-enters-password-and-login-to-access-cloud-storage-for-uploading-and-processing-files-illustration-with-isolated-people-scene-free-vector.jpg"
                         class="img-fluid" alt="..." style="width: auto;">
                 </div>
-            </div>
-            <!-------------------- ------ Right Box ---------------------------->
+            </div> -->
 
             <div class="col-md-6 right-box">
                 <div class="row align-items-center">
@@ -62,10 +77,10 @@
                         <p>Welcome back.</p>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control form-control-lg " placeholder="Email address">
+                        <input type="text" class="form-control form-control-lg " placeholder="Email address" required>
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control form-control-lg " id="exampleInputPassword1" placeholder="Password (minimum 8)" minlength="8">
+                        <input type="password" class="form-control form-control-lg " id="exampleInputPassword1" placeholder="Password" minlength="8" required>
                       </div>
                     <div class="input-group mb-3 d-flex justify-content-between">
                         <div class="form-check">
@@ -92,7 +107,7 @@
                         </button>
                     </div>
                     <div class="row text-center">
-                        <small>Don't have account? <a href="#">Sign Up</a></small>
+                        <small>Don't have account? <a href="register.html">Sign Up</a></small>
                     </div>
                 </div>
             </div>
